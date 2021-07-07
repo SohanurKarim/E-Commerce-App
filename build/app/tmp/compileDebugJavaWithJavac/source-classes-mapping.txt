@@ -1,0 +1,6 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/ecommerce_app/BuildConfig.java
+ com.example.ecommerce_app.BuildConfig
+com/example/ecommerce_app/MainActivity.java
+ com.example.ecommerce_app.MainActivity
