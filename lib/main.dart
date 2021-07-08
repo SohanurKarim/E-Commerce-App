@@ -1,3 +1,4 @@
+// @dart=2.9
 import 'package:ecommerce_app/screen/bottom_bar.dart';
 import 'package:flutter/material.dart';
 

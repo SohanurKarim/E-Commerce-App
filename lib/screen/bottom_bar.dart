@@ -1,9 +1,11 @@
+import 'package:ecommerce_app/consts/my_icons.dart';
 import 'package:ecommerce_app/screen/cart.dart';
 import 'package:ecommerce_app/screen/feeds.dart';
 import 'package:ecommerce_app/screen/home.dart';
 import 'package:ecommerce_app/screen/search.dart';
 import 'package:ecommerce_app/screen/user_info.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_icons/flutter_icons.dart' show Feather, MaterialCommunityIcons;
 
 class BottomBarScreen extends StatefulWidget {
   const BottomBarScreen({Key? key}) : super(key: key);
@@ -15,7 +17,7 @@ class BottomBarScreen extends StatefulWidget {
 class _BottomBarScreenState extends State<BottomBarScreen> {
 
   late List<Map<String,Widget>> _pages;
-  int _selectedPageIndex = 0;
+  int _selectedPageIndex = 4;
 
   @override
   void initState() {
@@ -74,11 +76,11 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
               currentIndex: _selectedPageIndex,
               items: [
                 BottomNavigationBarItem(
-                  icon: Icon(Icons.home),
+                  icon: Icon(MyAppIcon.home),
                   title: Text('Home'),
                 ),
                 BottomNavigationBarItem(
-                  icon: Icon(Icons.rss_feed),
+                  icon: Icon(MyAppIcon.rss),
                   title: Text('Feeds'),
                 ),
                 BottomNavigationBarItem(
@@ -87,11 +89,11 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
                   title: Text('Search'),
                 ),
                 BottomNavigationBarItem(
-                  icon: Icon(Icons.shopping_bag),
+                  icon: Icon(MyAppIcon.cart),
                   title: Text('Cart'),
                 ),
                 BottomNavigationBarItem(
-                  icon: Icon(Icons.person),
+                  icon: Icon(MyAppIcon.user),
                   title: Text('User'),
                 ),
               ],
@@ -107,7 +109,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
           splashColor: Colors.grey,
           tooltip: 'Search',
           elevation: 4,
-          child: Icon(Icons.search),
+          child: Icon(MyAppIcon.search),
           onPressed: ()=> setState((){
               _selectedPageIndex = 2;
           }),
