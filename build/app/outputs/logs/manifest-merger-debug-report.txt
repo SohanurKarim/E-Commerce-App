@@ -5,6 +5,7 @@ INJECTED from C:\Users\Sohan\StudioProjects\ecommerce_app\android\app\src\main\A
 INJECTED from C:\Users\Sohan\StudioProjects\ecommerce_app\android\app\src\main\AndroidManifest.xml:1:1-41:12
 INJECTED from C:\Users\Sohan\StudioProjects\ecommerce_app\android\app\src\main\AndroidManifest.xml:1:1-41:12
 MERGED from C:\Users\Sohan\StudioProjects\ecommerce_app\android\app\src\main\AndroidManifest.xml:1:1-41:12
+MERGED from [:shared_preferences] C:\Users\Sohan\StudioProjects\ecommerce_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Sohan\.gradle\caches\transforms-2\files-2.1\3b9ac7e74a876257638e4bc57b94e845\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Sohan\.gradle\caches\transforms-2\files-2.1\ba80674a1a5fdce2b1b29eea5683af77\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\Sohan\.gradle\caches\transforms-2\files-2.1\68865d38a53fb5c240061f062e474515\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -94,6 +95,8 @@ uses-sdk
 INJECTED from C:\Users\Sohan\StudioProjects\ecommerce_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Sohan\StudioProjects\ecommerce_app\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Sohan\StudioProjects\ecommerce_app\android\app\src\main\AndroidManifest.xml
+MERGED from [:shared_preferences] C:\Users\Sohan\StudioProjects\ecommerce_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] C:\Users\Sohan\StudioProjects\ecommerce_app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Sohan\.gradle\caches\transforms-2\files-2.1\3b9ac7e74a876257638e4bc57b94e845\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Sohan\.gradle\caches\transforms-2\files-2.1\3b9ac7e74a876257638e4bc57b94e845\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Sohan\.gradle\caches\transforms-2\files-2.1\ba80674a1a5fdce2b1b29eea5683af77\fragment-1.1.0\AndroidManifest.xml:20:5-22:41

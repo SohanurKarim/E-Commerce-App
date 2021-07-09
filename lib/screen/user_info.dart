@@ -1,8 +1,10 @@
 import 'package:ecommerce_app/consts/colors.dart';
+import 'package:ecommerce_app/provider/dark_theme_provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:list_tile_switch/list_tile_switch.dart';
+import 'package:provider/provider.dart';
 
 
 class UserInfo extends StatefulWidget {
@@ -14,7 +16,7 @@ class UserInfo extends StatefulWidget {
 
 class _UserInfoState extends State<UserInfo> {
 
-  bool _value = false;
+  //bool _value = false;
   late ScrollController _scrollController;
   var top =0.0;
 
@@ -28,6 +30,7 @@ class _UserInfoState extends State<UserInfo> {
 
   @override
   Widget build(BuildContext context) {
+    final themeChange = Provider.of<DarkThemeProvider>(context);
     return Scaffold(
       body: Stack(
         children: [
@@ -134,16 +137,16 @@ class _UserInfoState extends State<UserInfo> {
                     userListTile(2,'Shipping address','Mirpur 1',context),
                     userListTile(3,'Joined date','07/07/21',context),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.fromLTRB(8.0, 8.0, 8.0, 2.0),
                       child: userTitle('User Settings'),
                     ),
                     Divider(thickness: 1,color: Colors.grey,),
                     ListTileSwitch(
-                      value: _value,
+                      value: themeChange.darkTheme,
                       leading: Icon(Ionicons.md_moon),
                       onChanged: (value) {
                         setState(() {
-                          _value = value;
+                          themeChange.darkTheme = value;
                         });
                       },
                       visualDensity: VisualDensity.comfortable,
