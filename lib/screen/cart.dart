@@ -12,7 +12,7 @@ class Cart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List products = [];
-    return !products.isEmpty ? Scaffold(
+    return products.isEmpty ? Scaffold(
       body:  CartEmpty(),
       //CartEmpty(),
     ):Scaffold(
@@ -78,7 +78,7 @@ class Cart extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: Theme.of(ctx).textSelectionColor,
-                          fontSize: 18,
+                          fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
                       ),

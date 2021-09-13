@@ -128,11 +128,11 @@ class _CartFullState extends State<CartFull> {
                          onTap: (){},
                          child: Container(
                            child: Padding(
-                             padding: const EdgeInsets.all(5.0),
+                             padding: const EdgeInsets.all(1.0),
                              child: Icon(
                                Entypo.minus,
                                color: Colors.red,
-                               size: 22,
+                               size: 20,
                              ),
                            ),
                          ),
@@ -166,11 +166,11 @@ class _CartFullState extends State<CartFull> {
                          onTap: (){},
                          child: Container(
                            child: Padding(
-                             padding: const EdgeInsets.all(5.0),
+                             padding: const EdgeInsets.all(1.0),
                              child: Icon(
                                Entypo.plus,
                                color: Colors.green,
-                               size: 22,
+                               size: 20,
                              ),
                            ),
                          ),
